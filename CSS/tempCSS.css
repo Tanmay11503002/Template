@@ -1,0 +1,311 @@
+/* Header CSS */
+
+html
+{
+	scroll-behavior:smooth;
+	text-align:center;
+	font-family:Trebuchet MS;
+
+}
+
+.head
+{
+	position:sticky;
+	top:2px;
+}	
+header i
+{
+	color:#f06705;
+	
+}
+header li
+{
+	display:inline-block;
+	line-height:50px;
+	padding:10px 10px;
+	
+}
+
+header a
+{
+	color:white;
+	text-decoration:none;
+	font-size:22px;
+	
+	
+}
+
+header ul
+{
+	background:black;
+	
+}
+
+.banner-section
+{
+	background:url("../images/banner5.jpg");
+	height:550px;
+	background-size:100% 100%;
+	margin:0px;
+}
+
+.banner-section div
+{
+	background:black;
+	color:#f06705;
+}
+
+/* Info CSS */
+div h1
+{
+	text-align:center;
+}
+
+.info-section p
+{
+	font-size:20px;
+	line-height:35px;
+	padding:5px;
+}
+
+.info-section h2
+{
+	font-size:30px;
+	padding:5px;
+	margin:5px;
+}
+
+.info-section div
+{
+	color:#f06705;
+	background:black;
+	display:inline-block;
+	width:48%;
+	text-align:left;
+}
+
+.info-section img
+{
+	width:100%;
+	height:50%;
+}
+h1
+{
+	font-size:40px;
+}
+
+.info-section 
+{
+	color:#f06705;
+	background:black;
+}
+.info-section h1
+{
+	color:black;
+	background:white;
+}
+/* Benefit Section CSS*/
+.benefit-insider:hover
+{
+	transform:translate(10px,10px);
+	transition:ease-in-out 1s;
+	background:#f06705;
+	color:black;
+}
+.benefits-section ul li
+{
+	font-size:30px;
+	line-height:100px;
+	
+}	
+
+.benefits-section img
+{
+	background-color:black;
+	width:90%;
+	height:450px;
+	text-align:center;
+	text-decoration:justify;
+}
+	
+.benefits-section div
+{
+	display:inline-block;
+	width:45%;
+	color:#f06705;
+	background:black;
+	text-align:left;
+}
+
+.benefits-section
+{
+	color:#f06705;
+	background:black;
+}
+
+.benefits-section h1
+{
+	color:black;
+	background:white;
+}
+/* Rates CSS */
+
+.rates div
+{
+	width:25%;
+    display:inline-block;
+	margin:5px;
+	padding:20px;
+	background:black;
+	color:#f06705;
+}
+
+.rates img
+{
+	width:75%;
+	text-decoration:justify;
+}
+
+.rates div:hover
+{
+	transform:scale(1.1,1.1);
+	transition:ease-in-out 1s;
+	color:black;
+	background:#f06705;
+}
+
+.rates ul li
+{
+	text-align:left;
+}
+
+/* Uses CSS */
+.row div
+{
+	text-align:center;
+	width:18%;
+	display:inline-block;
+	padding:5px;
+}
+
+.row img
+{
+	width:90%;
+	height:32%;
+}
+
+.food:hover
+{
+	border:solid 5px black;
+	color:#f06705;
+	background:black;
+}
+
+/* Order CSS */
+
+.order-section
+{
+	background:black;
+	display:flex;
+	width:100%;
+}
+
+.pic
+{
+	width:40%;
+	background:black;
+}
+
+.pic img
+{
+	width:100%;
+	height:500px;
+	text-align:center;	
+}
+
+.order-recp
+{
+	width:60%;
+	background:black;
+	margin:5px;
+	text-align:center;	
+	color:#f06705;
+	font-size:35px;
+	font-family:calibri;
+	margin-top:0px;
+}
+
+.order-recp input
+{		
+	height:40px;
+	width:450px;
+	margin:2px;
+	padding-top:12px;
+}
+
+.order-recp textarea
+{		
+	height:80px;
+	width:450px;
+	margin:2px;
+	padding-top:12px;
+}
+
+#sub
+{
+	background:#f06705;		
+}
+
+.btn
+{
+	background:black;
+	font-size:20px;
+}
+
+/* Footer CSS */
+.footer-section
+{
+	background:black;
+	color:#f06705;
+	margin:0px;
+	padding:0px;
+}
+
+.footer-section div
+{
+	display:inline-block;
+	width:32%;
+}
+
+.social ul li
+{
+	display:inline-block;
+	padding:10px;
+	text-align:center;
+}
+
+.social ul li a
+{
+	font-size:25px;
+	color:#f06705;
+}
+
+.overview ul li
+{
+	text-align:left;
+	padding:2px;
+	
+}
+
+.contact ul
+{
+	text-align:left;
+	
+}
+
+.contact ul li
+{
+	display:inline-block;
+	padding:2px;
+	text-align:left;
+}
